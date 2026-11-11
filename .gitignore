@@ -1,0 +1,44 @@
+# Ignore dependencies and cache
+/.idea
+/node_modules
+/vendor
+/storage/*.key
+
+# Ignore public assets
+/public/hot
+/public/storage
+/storage/app/public/logo.png
+
+# Ignore environment files and configuration
+.env
+.env.testing
+.env.backup
+.env.dev
+
+# Ignore testing and debug logs
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Ignore Docker and Homestead configuration
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+
+# Ignore gitignore itself
+.gitignore
+
+# Ignore installation logs and locks
+public/install/logs.txt
+install.lock
+public/install/logs/installer.log
+
+#Ignore Scribe files
+/.scribe
+/public/vendor
+/themes/scribe
+
+/.idea
+cpggdatabase.sql
+/dump.rdb
